@@ -1,0 +1,38 @@
+# Python environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS
+.DS_Store
+
+# IDE settings
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# Backup files
+app_backup*.py
+*.save
+
+# Large external datasets
+data/external/
+data/real_world_evaluation/external/
+data/real_world_evaluation/REAL/
+data/real_world_evaluation/FAKE/
+
+# Private report verification records
+data/report_verification/image_fingerprints.csv
+
+# Temporary files
+*.log
+.streamlit/secrets.toml
